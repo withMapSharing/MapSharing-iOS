@@ -13,6 +13,15 @@
 		BDA66A3625DE698D00EF4097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA66A3425DE698D00EF4097 /* Main.storyboard */; };
 		BDA66A3825DE698F00EF4097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA66A3725DE698F00EF4097 /* Assets.xcassets */; };
 		BDA66A3B25DE698F00EF4097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA66A3925DE698F00EF4097 /* LaunchScreen.storyboard */; };
+		BDA66A4F25DE6F3A00EF4097 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDA66A4E25DE6F3A00EF4097 /* Rubik-Regular.ttf */; };
+		BDA66A5225DE6F4700EF4097 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDA66A5125DE6F4700EF4097 /* Rubik-Medium.ttf */; };
+		BDA66A5525DE6F5900EF4097 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDA66A5425DE6F5900EF4097 /* Rubik-Bold.ttf */; };
+		BDA66A5A25DE70A000EF4097 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BDA66A5725DE709F00EF4097 /* NotoSansCJKkr-Medium.otf */; };
+		BDA66A5B25DE70A000EF4097 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BDA66A5825DE70A000EF4097 /* NotoSansCJKkr-Bold.otf */; };
+		BDA66A5C25DE70A000EF4097 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BDA66A5925DE70A000EF4097 /* NotoSansCJKkr-Regular.otf */; };
+		BDA66A5F25DE71B700EF4097 /* CustomFont + UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA66A5E25DE71B700EF4097 /* CustomFont + UIFont.swift */; };
+		BDA66A6525DE756000EF4097 /* FontTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA66A6325DE756000EF4097 /* FontTestViewController.swift */; };
+		BDA66A6625DE756000EF4097 /* FontTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA66A6425DE756000EF4097 /* FontTestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		BDA66A3725DE698F00EF4097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDA66A3A25DE698F00EF4097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDA66A3C25DE698F00EF4097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA66A4E25DE6F3A00EF4097 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		BDA66A5125DE6F4700EF4097 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		BDA66A5425DE6F5900EF4097 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		BDA66A5725DE709F00EF4097 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
+		BDA66A5825DE70A000EF4097 /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
+		BDA66A5925DE70A000EF4097 /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
+		BDA66A5E25DE71B700EF4097 /* CustomFont + UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomFont + UIFont.swift"; sourceTree = "<group>"; };
+		BDA66A6325DE756000EF4097 /* FontTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTestViewController.swift; sourceTree = "<group>"; };
+		BDA66A6425DE756000EF4097 /* FontTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FontTestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +108,7 @@
 		BDA66A4525DE6A7600EF4097 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BDA66A6825DE757500EF4097 /* Font */,
 				BDA66A3225DE698D00EF4097 /* ViewController.swift */,
 			);
 			path = ViewControllers;
@@ -105,6 +124,7 @@
 		BDA66A4725DE6A8400EF4097 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BDA66A5E25DE71B700EF4097 /* CustomFont + UIFont.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -121,6 +141,7 @@
 		BDA66A4925DE6A9B00EF4097 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
+				BDA66A6125DE750D00EF4097 /* Font */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -128,6 +149,12 @@
 		BDA66A4A25DE6AA200EF4097 /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				BDA66A4E25DE6F3A00EF4097 /* Rubik-Regular.ttf */,
+				BDA66A5125DE6F4700EF4097 /* Rubik-Medium.ttf */,
+				BDA66A5425DE6F5900EF4097 /* Rubik-Bold.ttf */,
+				BDA66A5825DE70A000EF4097 /* NotoSansCJKkr-Bold.otf */,
+				BDA66A5725DE709F00EF4097 /* NotoSansCJKkr-Medium.otf */,
+				BDA66A5925DE70A000EF4097 /* NotoSansCJKkr-Regular.otf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -145,6 +172,22 @@
 				BDA66A3725DE698F00EF4097 /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		BDA66A6125DE750D00EF4097 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BDA66A6425DE756000EF4097 /* FontTestViewController.xib */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		BDA66A6825DE757500EF4097 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BDA66A6325DE756000EF4097 /* FontTestViewController.swift */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,8 +248,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA66A3B25DE698F00EF4097 /* LaunchScreen.storyboard in Resources */,
+				BDA66A5A25DE70A000EF4097 /* NotoSansCJKkr-Medium.otf in Resources */,
+				BDA66A5525DE6F5900EF4097 /* Rubik-Bold.ttf in Resources */,
+				BDA66A6625DE756000EF4097 /* FontTestViewController.xib in Resources */,
+				BDA66A4F25DE6F3A00EF4097 /* Rubik-Regular.ttf in Resources */,
+				BDA66A5C25DE70A000EF4097 /* NotoSansCJKkr-Regular.otf in Resources */,
 				BDA66A3825DE698F00EF4097 /* Assets.xcassets in Resources */,
+				BDA66A5B25DE70A000EF4097 /* NotoSansCJKkr-Bold.otf in Resources */,
 				BDA66A3625DE698D00EF4097 /* Main.storyboard in Resources */,
+				BDA66A5225DE6F4700EF4097 /* Rubik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +269,8 @@
 			files = (
 				BDA66A3325DE698D00EF4097 /* ViewController.swift in Sources */,
 				BDA66A2F25DE698D00EF4097 /* AppDelegate.swift in Sources */,
+				BDA66A6525DE756000EF4097 /* FontTestViewController.swift in Sources */,
+				BDA66A5F25DE71B700EF4097 /* CustomFont + UIFont.swift in Sources */,
 				BDA66A3125DE698D00EF4097 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,5 +15,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func fontTestButtonClicked(_ sender: Any) {
+        let fontTestViewController = FontTestViewController()
+        self.present(fontTestViewController, animated: true, completion: nil)
+    }
 }
 
