@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0DD19825E1493400E45C8D /* HexColor + UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DD19725E1493400E45C8D /* HexColor + UIColor.swift */; };
 		BDA66A2F25DE698D00EF4097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA66A2E25DE698D00EF4097 /* AppDelegate.swift */; };
 		BDA66A3125DE698D00EF4097 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA66A3025DE698D00EF4097 /* SceneDelegate.swift */; };
 		BDA66A3325DE698D00EF4097 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA66A3225DE698D00EF4097 /* ViewController.swift */; };
@@ -22,9 +23,12 @@
 		BDA66A5F25DE71B700EF4097 /* CustomFont + UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA66A5E25DE71B700EF4097 /* CustomFont + UIFont.swift */; };
 		BDA66A6525DE756000EF4097 /* FontTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA66A6325DE756000EF4097 /* FontTestViewController.swift */; };
 		BDA66A6625DE756000EF4097 /* FontTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA66A6425DE756000EF4097 /* FontTestViewController.xib */; };
+		BDA66A6D25DE7C3C00EF4097 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA66A6C25DE7C3C00EF4097 /* SplashViewController.swift */; };
+		BDA66A7125DE7C4E00EF4097 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA66A7025DE7C4E00EF4097 /* SplashViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD0DD19725E1493400E45C8D /* HexColor + UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HexColor + UIColor.swift"; sourceTree = "<group>"; };
 		BDA66A2B25DE698D00EF4097 /* MapSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA66A2E25DE698D00EF4097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDA66A3025DE698D00EF4097 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		BDA66A5E25DE71B700EF4097 /* CustomFont + UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomFont + UIFont.swift"; sourceTree = "<group>"; };
 		BDA66A6325DE756000EF4097 /* FontTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTestViewController.swift; sourceTree = "<group>"; };
 		BDA66A6425DE756000EF4097 /* FontTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FontTestViewController.xib; sourceTree = "<group>"; };
+		BDA66A6C25DE7C3C00EF4097 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		BDA66A7025DE7C4E00EF4097 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				BDA66A6825DE757500EF4097 /* Font */,
+				BDA66A6B25DE7A3B00EF4097 /* Splash */,
 				BDA66A3225DE698D00EF4097 /* ViewController.swift */,
 			);
 			path = ViewControllers;
@@ -125,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				BDA66A5E25DE71B700EF4097 /* CustomFont + UIFont.swift */,
+				BD0DD19725E1493400E45C8D /* HexColor + UIColor.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -142,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				BDA66A6125DE750D00EF4097 /* Font */,
+				BDA66A6A25DE7A2F00EF4097 /* Splash */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -188,6 +197,22 @@
 				BDA66A6325DE756000EF4097 /* FontTestViewController.swift */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		BDA66A6A25DE7A2F00EF4097 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				BDA66A7025DE7C4E00EF4097 /* SplashViewController.xib */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		BDA66A6B25DE7A3B00EF4097 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				BDA66A6C25DE7C3C00EF4097 /* SplashViewController.swift */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +275,7 @@
 				BDA66A3B25DE698F00EF4097 /* LaunchScreen.storyboard in Resources */,
 				BDA66A5A25DE70A000EF4097 /* NotoSansCJKkr-Medium.otf in Resources */,
 				BDA66A5525DE6F5900EF4097 /* Rubik-Bold.ttf in Resources */,
+				BDA66A7125DE7C4E00EF4097 /* SplashViewController.xib in Resources */,
 				BDA66A6625DE756000EF4097 /* FontTestViewController.xib in Resources */,
 				BDA66A4F25DE6F3A00EF4097 /* Rubik-Regular.ttf in Resources */,
 				BDA66A5C25DE70A000EF4097 /* NotoSansCJKkr-Regular.otf in Resources */,
@@ -270,6 +296,8 @@
 				BDA66A3325DE698D00EF4097 /* ViewController.swift in Sources */,
 				BDA66A2F25DE698D00EF4097 /* AppDelegate.swift in Sources */,
 				BDA66A6525DE756000EF4097 /* FontTestViewController.swift in Sources */,
+				BDA66A6D25DE7C3C00EF4097 /* SplashViewController.swift in Sources */,
+				BD0DD19825E1493400E45C8D /* HexColor + UIColor.swift in Sources */,
 				BDA66A5F25DE71B700EF4097 /* CustomFont + UIFont.swift in Sources */,
 				BDA66A3125DE698D00EF4097 /* SceneDelegate.swift in Sources */,
 			);
@@ -421,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W895YM7ZMH;
 				INFOPLIST_FILE = MapSharing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,7 +457,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.taekki.ios.MapSharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -440,6 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W895YM7ZMH;
 				INFOPLIST_FILE = MapSharing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,7 +477,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.taekki.ios.MapSharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
