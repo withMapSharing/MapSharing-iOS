@@ -24,5 +24,9 @@ extension UIColor {
     class var backgroundGray: UIColor { UIColor(hex: 0xF1F1F5) }
     class var kakaoYellow: UIColor { UIColor(hex: 0xFFDD4D) }
     class var kakaoBrown: UIColor { UIColor(hex: 0x5C3500) }
+    
+    class var customGreen: UIColor { UIColor(hex: 0x0DC66A) }
+    class var customGray: UIColor { UIColor(hex: 0xB0B3BA) }
+    class var customBlack: UIColor { UIColor(hex: 0x0D0D0D) }
 }
 

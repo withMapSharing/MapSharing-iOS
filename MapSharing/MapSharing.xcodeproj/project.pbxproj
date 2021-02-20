@@ -3,11 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4E44EBA48753FAAFA52801 /* Pods_MapSharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC1F5F2A0AF9C49AB22A2A8 /* Pods_MapSharing.framework */; };
 		BD0DD19825E1493400E45C8D /* HexColor + UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DD19725E1493400E45C8D /* HexColor + UIColor.swift */; };
+		BD0DD1A725E1583E00E45C8D /* NicknameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD0DD1A625E1583E00E45C8D /* NicknameViewController.xib */; };
+		BD0DD1AB25E1587500E45C8D /* NicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DD1AA25E1587500E45C8D /* NicknameViewController.swift */; };
+		BD0DD1AE25E15A3000E45C8D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD0DD1AD25E15A3000E45C8D /* MainViewController.xib */; };
+		BD0DD1B225E15A4200E45C8D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DD1B125E15A4200E45C8D /* MainViewController.swift */; };
+		BD0DD1B825E163EC00E45C8D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0DD1B725E163EC00E45C8D /* SystemConfiguration.framework */; };
+		BD0DD1BA25E1640400E45C8D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0DD1B925E1640400E45C8D /* CoreLocation.framework */; };
+		BD0DD1BD25E1641000E45C8D /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0DD1BC25E1641000E45C8D /* Metal.framework */; };
+		BD0DD1BF25E1641B00E45C8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0DD1BE25E1641B00E45C8D /* QuartzCore.framework */; };
+		BD0DD1C525E1649200E45C8D /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0DD1C425E1649200E45C8D /* DaumMap.framework */; };
+		BD0DD1C825E1652000E45C8D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0DD1C025E1642500E45C8D /* libc++.tbd */; };
+		BD0DD1CA25E1652800E45C8D /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0DD1C125E1642C00E45C8D /* libxml2.tbd */; };
+		BD0DD1CC25E1652F00E45C8D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0DD1C225E1643300E45C8D /* libsqlite3.tbd */; };
 		BDA66A2F25DE698D00EF4097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA66A2E25DE698D00EF4097 /* AppDelegate.swift */; };
 		BDA66A3125DE698D00EF4097 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA66A3025DE698D00EF4097 /* SceneDelegate.swift */; };
 		BDA66A3325DE698D00EF4097 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA66A3225DE698D00EF4097 /* ViewController.swift */; };
@@ -28,7 +41,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		101A1BCBF9BB371E3E190479 /* Pods-MapSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapSharing.debug.xcconfig"; path = "Target Support Files/Pods-MapSharing/Pods-MapSharing.debug.xcconfig"; sourceTree = "<group>"; };
 		BD0DD19725E1493400E45C8D /* HexColor + UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HexColor + UIColor.swift"; sourceTree = "<group>"; };
+		BD0DD1A625E1583E00E45C8D /* NicknameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NicknameViewController.xib; sourceTree = "<group>"; };
+		BD0DD1AA25E1587500E45C8D /* NicknameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController.swift; sourceTree = "<group>"; };
+		BD0DD1AD25E15A3000E45C8D /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		BD0DD1B125E15A4200E45C8D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BD0DD1B525E163E300E45C8D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BD0DD1B725E163EC00E45C8D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BD0DD1B925E1640400E45C8D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BD0DD1BC25E1641000E45C8D /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		BD0DD1BE25E1641B00E45C8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BD0DD1C025E1642500E45C8D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		BD0DD1C125E1642C00E45C8D /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		BD0DD1C225E1643300E45C8D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BD0DD1C325E1646800E45C8D /* MapSharing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapSharing-Bridging-Header.h"; sourceTree = "<group>"; };
+		BD0DD1C425E1649200E45C8D /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
 		BDA66A2B25DE698D00EF4097 /* MapSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA66A2E25DE698D00EF4097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDA66A3025DE698D00EF4097 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +76,8 @@
 		BDA66A6425DE756000EF4097 /* FontTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FontTestViewController.xib; sourceTree = "<group>"; };
 		BDA66A6C25DE7C3C00EF4097 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		BDA66A7025DE7C4E00EF4097 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		D9DC969BA39FC9DA4712A15C /* Pods-MapSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapSharing.release.xcconfig"; path = "Target Support Files/Pods-MapSharing/Pods-MapSharing.release.xcconfig"; sourceTree = "<group>"; };
+		EFC1F5F2A0AF9C49AB22A2A8 /* Pods_MapSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,17 +85,87 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0DD1CC25E1652F00E45C8D /* libsqlite3.tbd in Frameworks */,
+				BD0DD1CA25E1652800E45C8D /* libxml2.tbd in Frameworks */,
+				BD0DD1C825E1652000E45C8D /* libc++.tbd in Frameworks */,
+				BD0DD1BF25E1641B00E45C8D /* QuartzCore.framework in Frameworks */,
+				BD0DD1BA25E1640400E45C8D /* CoreLocation.framework in Frameworks */,
+				3E4E44EBA48753FAAFA52801 /* Pods_MapSharing.framework in Frameworks */,
+				BD0DD1BD25E1641000E45C8D /* Metal.framework in Frameworks */,
+				BD0DD1C525E1649200E45C8D /* DaumMap.framework in Frameworks */,
+				BD0DD1B825E163EC00E45C8D /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2E02DEC2565C2BFCC3993EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				101A1BCBF9BB371E3E190479 /* Pods-MapSharing.debug.xcconfig */,
+				D9DC969BA39FC9DA4712A15C /* Pods-MapSharing.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE99651495FC3872F02ACA9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD0DD1C425E1649200E45C8D /* DaumMap.framework */,
+				BD0DD1C225E1643300E45C8D /* libsqlite3.tbd */,
+				BD0DD1C125E1642C00E45C8D /* libxml2.tbd */,
+				BD0DD1C025E1642500E45C8D /* libc++.tbd */,
+				BD0DD1BE25E1641B00E45C8D /* QuartzCore.framework */,
+				BD0DD1BC25E1641000E45C8D /* Metal.framework */,
+				BD0DD1B925E1640400E45C8D /* CoreLocation.framework */,
+				BD0DD1B725E163EC00E45C8D /* SystemConfiguration.framework */,
+				BD0DD1B525E163E300E45C8D /* OpenGLES.framework */,
+				EFC1F5F2A0AF9C49AB22A2A8 /* Pods_MapSharing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD0DD1A425E1578D00E45C8D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BD0DD1AD25E15A3000E45C8D /* MainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BD0DD1A525E157B500E45C8D /* Nickname */ = {
+			isa = PBXGroup;
+			children = (
+				BD0DD1A625E1583E00E45C8D /* NicknameViewController.xib */,
+			);
+			path = Nickname;
+			sourceTree = "<group>";
+		};
+		BD0DD1A925E1586000E45C8D /* Nickname */ = {
+			isa = PBXGroup;
+			children = (
+				BD0DD1AA25E1587500E45C8D /* NicknameViewController.swift */,
+			);
+			path = Nickname;
+			sourceTree = "<group>";
+		};
+		BD0DD1B025E15A3600E45C8D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BD0DD1B125E15A4200E45C8D /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		BDA66A2225DE698D00EF4097 = {
 			isa = PBXGroup;
 			children = (
+				BD0DD1C325E1646800E45C8D /* MapSharing-Bridging-Header.h */,
 				BDA66A2D25DE698D00EF4097 /* MapSharing */,
 				BDA66A2C25DE698D00EF4097 /* Products */,
+				A2E02DEC2565C2BFCC3993EF /* Pods */,
+				AE99651495FC3872F02ACA9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +216,8 @@
 			children = (
 				BDA66A6825DE757500EF4097 /* Font */,
 				BDA66A6B25DE7A3B00EF4097 /* Splash */,
+				BD0DD1A925E1586000E45C8D /* Nickname */,
+				BD0DD1B025E15A3600E45C8D /* Main */,
 				BDA66A3225DE698D00EF4097 /* ViewController.swift */,
 			);
 			path = ViewControllers;
@@ -151,6 +253,8 @@
 			children = (
 				BDA66A6125DE750D00EF4097 /* Font */,
 				BDA66A6A25DE7A2F00EF4097 /* Splash */,
+				BD0DD1A525E157B500E45C8D /* Nickname */,
+				BD0DD1A425E1578D00E45C8D /* Main */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -222,9 +326,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDA66A3F25DE698F00EF4097 /* Build configuration list for PBXNativeTarget "MapSharing" */;
 			buildPhases = (
+				84D813D287B8BF926516C1CE /* [CP] Check Pods Manifest.lock */,
 				BDA66A2725DE698D00EF4097 /* Sources */,
 				BDA66A2825DE698D00EF4097 /* Frameworks */,
 				BDA66A2925DE698D00EF4097 /* Resources */,
+				B44C7F04D50337C9115C4046 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,6 +378,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0DD1A725E1583E00E45C8D /* NicknameViewController.xib in Resources */,
+				BD0DD1AE25E15A3000E45C8D /* MainViewController.xib in Resources */,
 				BDA66A3B25DE698F00EF4097 /* LaunchScreen.storyboard in Resources */,
 				BDA66A5A25DE70A000EF4097 /* NotoSansCJKkr-Medium.otf in Resources */,
 				BDA66A5525DE6F5900EF4097 /* Rubik-Bold.ttf in Resources */,
@@ -288,6 +396,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84D813D287B8BF926516C1CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapSharing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B44C7F04D50337C9115C4046 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapSharing/Pods-MapSharing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapSharing/Pods-MapSharing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MapSharing/Pods-MapSharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDA66A2725DE698D00EF4097 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -297,7 +447,9 @@
 				BDA66A2F25DE698D00EF4097 /* AppDelegate.swift in Sources */,
 				BDA66A6525DE756000EF4097 /* FontTestViewController.swift in Sources */,
 				BDA66A6D25DE7C3C00EF4097 /* SplashViewController.swift in Sources */,
+				BD0DD1AB25E1587500E45C8D /* NicknameViewController.swift in Sources */,
 				BD0DD19825E1493400E45C8D /* HexColor + UIColor.swift in Sources */,
+				BD0DD1B225E15A4200E45C8D /* MainViewController.swift in Sources */,
 				BDA66A5F25DE71B700EF4097 /* CustomFont + UIFont.swift in Sources */,
 				BDA66A3125DE698D00EF4097 /* SceneDelegate.swift in Sources */,
 			);
@@ -443,11 +595,16 @@
 		};
 		BDA66A4025DE698F00EF4097 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101A1BCBF9BB371E3E190479 /* Pods-MapSharing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W895YM7ZMH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MapSharing/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,6 +613,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.taekki.ios.MapSharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/taehy.k/MyProjects/MapSharing-iOS/MapSharing/MapSharing-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -463,11 +621,16 @@
 		};
 		BDA66A4125DE698F00EF4097 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9DC969BA39FC9DA4712A15C /* Pods-MapSharing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W895YM7ZMH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MapSharing/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,6 +639,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.taekki.ios.MapSharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/taehy.k/MyProjects/MapSharing-iOS/MapSharing/MapSharing-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

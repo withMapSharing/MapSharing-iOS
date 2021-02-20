@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import KakaoSDKAuth
 
 class SplashViewController: UIViewController {
     
@@ -37,7 +38,21 @@ class SplashViewController: UIViewController {
     // MARK: - IBActions
     
     @IBAction func kakaoLoginButtonClicked(_ sender: Any) {
-        
+        AuthApi.shared.loginWithKakaoAccount {(oauthToken, error) in
+           if let error = error {
+             print(error)
+           }
+           else {
+            print("loginWithKakaoAccount() success.")
+            
+            //do something
+            _ = oauthToken
+            
+            let nicknameViewController = NicknameViewController()
+            nicknameViewController.modalPresentationStyle = .overFullScreen
+            self.present(nicknameViewController, animated: true, completion: nil)
+           }
+        }
     }
     
 }
