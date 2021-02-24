@@ -150,6 +150,9 @@
                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                     <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
                     <state key="normal" title="ADD" image="plus" catalog="system"/>
+                    <connections>
+                        <action selector="addButtonClicked:" destination="-1" eventType="touchUpInside" id="zid-zY-Kt1"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

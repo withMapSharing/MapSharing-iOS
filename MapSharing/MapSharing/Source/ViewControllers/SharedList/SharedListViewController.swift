@@ -65,6 +65,11 @@ class SharedListViewController: BaseViewController {
     @IBAction func backButtonClicked(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
+    
+    @IBAction func addButtonClicked(_ sender: Any) {
+        let newListVC = NewListViewController(nibName: "NewListViewController", bundle: nil)
+        self.navigationController?.pushViewController(newListVC, animated: true)
+    }
 }
 
 extension SharedListViewController {

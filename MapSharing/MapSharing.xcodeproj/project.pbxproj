@@ -43,6 +43,8 @@
 		BDF0F97625E68484009447ED /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0F97525E68484009447ED /* BaseViewController.swift */; };
 		BDF0F97B25E69038009447ED /* SharedListCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0F97925E69038009447ED /* SharedListCVC.swift */; };
 		BDF0F97C25E69038009447ED /* SharedListCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF0F97A25E69038009447ED /* SharedListCVC.xib */; };
+		BDF0F98125E69909009447ED /* NewListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF0F98025E69909009447ED /* NewListViewController.xib */; };
+		BDF0F98525E6991D009447ED /* NewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0F98425E6991D009447ED /* NewListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +88,8 @@
 		BDF0F97525E68484009447ED /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		BDF0F97925E69038009447ED /* SharedListCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedListCVC.swift; sourceTree = "<group>"; };
 		BDF0F97A25E69038009447ED /* SharedListCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SharedListCVC.xib; sourceTree = "<group>"; };
+		BDF0F98025E69909009447ED /* NewListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewListViewController.xib; sourceTree = "<group>"; };
+		BDF0F98425E6991D009447ED /* NewListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListViewController.swift; sourceTree = "<group>"; };
 		D9DC969BA39FC9DA4712A15C /* Pods-MapSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapSharing.release.xcconfig"; path = "Target Support Files/Pods-MapSharing/Pods-MapSharing.release.xcconfig"; sourceTree = "<group>"; };
 		EFC1F5F2A0AF9C49AB22A2A8 /* Pods_MapSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -230,6 +234,7 @@
 				BD0DD1A925E1586000E45C8D /* Nickname */,
 				BD0DD1B025E15A3600E45C8D /* Main */,
 				BDACEC0025E5434500922FF9 /* SharedList */,
+				BDF0F98325E6990F009447ED /* NewList */,
 				BDA66A3225DE698D00EF4097 /* ViewController.swift */,
 				BDF0F97525E68484009447ED /* BaseViewController.swift */,
 			);
@@ -269,6 +274,7 @@
 				BD0DD1A525E157B500E45C8D /* Nickname */,
 				BD0DD1A425E1578D00E45C8D /* Main */,
 				BDACEBFC25E5431C00922FF9 /* SharedList */,
+				BDF0F97F25E698E6009447ED /* NewList */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -358,6 +364,22 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		BDF0F97F25E698E6009447ED /* NewList */ = {
+			isa = PBXGroup;
+			children = (
+				BDF0F98025E69909009447ED /* NewListViewController.xib */,
+			);
+			path = NewList;
+			sourceTree = "<group>";
+		};
+		BDF0F98325E6990F009447ED /* NewList */ = {
+			isa = PBXGroup;
+			children = (
+				BDF0F98425E6991D009447ED /* NewListViewController.swift */,
+			);
+			path = NewList;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -432,6 +454,7 @@
 				BDA66A5B25DE70A000EF4097 /* NotoSansCJKkr-Bold.otf in Resources */,
 				BDA66A3625DE698D00EF4097 /* Main.storyboard in Resources */,
 				BDA66A5225DE6F4700EF4097 /* Rubik-Medium.ttf in Resources */,
+				BDF0F98125E69909009447ED /* NewListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +514,7 @@
 				BDACEC0225E5435500922FF9 /* SharedListViewController.swift in Sources */,
 				BDA66A6D25DE7C3C00EF4097 /* SplashViewController.swift in Sources */,
 				BD0DD1AB25E1587500E45C8D /* NicknameViewController.swift in Sources */,
+				BDF0F98525E6991D009447ED /* NewListViewController.swift in Sources */,
 				BD0DD19825E1493400E45C8D /* HexColor + UIColor.swift in Sources */,
 				BD0DD1B225E15A4200E45C8D /* MainViewController.swift in Sources */,
 				BDF0F97B25E69038009447ED /* SharedListCVC.swift in Sources */,
