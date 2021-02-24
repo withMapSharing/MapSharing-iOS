@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController, MTMapViewDelegate {
+class MainViewController: BaseViewController, MTMapViewDelegate {
     
     @IBOutlet weak var profileImg: UIImageView!
     @IBOutlet weak var welcomeUser: UILabel!
@@ -30,6 +30,12 @@ class MainViewController: UIViewController, MTMapViewDelegate {
             mapView.baseMapType = .standard
             self.backgroundView.addSubview(mapView)
         }
+    }
+    
+    @IBAction func listButtonClicked(_ sender: Any) {
+        let sharedListVC = SharedListViewController(nibName: "SharedListViewController", bundle: nil)
+        self.navigationController?.pushViewController(sharedListVC, animated: true)
+//        self.present(sharedListVC, animated: true, completion: nil)
     }
     
     fileprivate func setupUI() {

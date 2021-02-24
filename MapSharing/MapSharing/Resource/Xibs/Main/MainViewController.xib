@@ -55,14 +55,14 @@
                     <rect key="frame" x="32.666666666666657" y="138" width="310" height="43"/>
                     <subviews>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="검색어를 입력하세요" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ntF-8a-14m">
-                            <rect key="frame" x="31" y="12.333333333333345" width="229" height="18.666666666666671"/>
+                            <rect key="frame" x="31" y="12.333333333333345" width="227" height="18.666666666666671"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYg-6P-y1K">
-                            <rect key="frame" x="268" y="8.9999999999999876" width="26" height="25.666666666666668"/>
+                            <rect key="frame" x="266" y="8.9999999999999876" width="28" height="25.666666666666668"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="26" id="giY-Bt-zr1"/>
+                                <constraint firstAttribute="width" constant="28" id="giY-Bt-zr1"/>
                                 <constraint firstAttribute="height" constant="28" id="rGt-yh-GG5"/>
                             </constraints>
                             <state key="normal" backgroundImage="magnifyingglass" catalog="system"/>
@@ -89,6 +89,9 @@
                     <state key="normal" title="LIST" image="filemenu.and.cursorarrow" catalog="system">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
+                    <connections>
+                        <action selector="listButtonClicked:" destination="-1" eventType="touchUpInside" id="OtQ-3A-Sn0"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

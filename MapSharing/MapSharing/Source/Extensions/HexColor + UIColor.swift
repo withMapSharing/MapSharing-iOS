@@ -27,6 +27,7 @@ extension UIColor {
     
     class var customGreen: UIColor { UIColor(hex: 0x0DC66A) }
     class var customGray: UIColor { UIColor(hex: 0xB0B3BA) }
+    class var customLightGray: UIColor { UIColor(hex: 0xF1F1F5) }
     class var customBlack: UIColor { UIColor(hex: 0x0D0D0D) }
 }
 

@@ -38,6 +38,11 @@
 		BDA66A6625DE756000EF4097 /* FontTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA66A6425DE756000EF4097 /* FontTestViewController.xib */; };
 		BDA66A6D25DE7C3C00EF4097 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA66A6C25DE7C3C00EF4097 /* SplashViewController.swift */; };
 		BDA66A7125DE7C4E00EF4097 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA66A7025DE7C4E00EF4097 /* SplashViewController.xib */; };
+		BDACEBFE25E5433E00922FF9 /* SharedListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDACEBFD25E5433E00922FF9 /* SharedListViewController.xib */; };
+		BDACEC0225E5435500922FF9 /* SharedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDACEC0125E5435500922FF9 /* SharedListViewController.swift */; };
+		BDF0F97625E68484009447ED /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0F97525E68484009447ED /* BaseViewController.swift */; };
+		BDF0F97B25E69038009447ED /* SharedListCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0F97925E69038009447ED /* SharedListCVC.swift */; };
+		BDF0F97C25E69038009447ED /* SharedListCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF0F97A25E69038009447ED /* SharedListCVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +81,11 @@
 		BDA66A6425DE756000EF4097 /* FontTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FontTestViewController.xib; sourceTree = "<group>"; };
 		BDA66A6C25DE7C3C00EF4097 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		BDA66A7025DE7C4E00EF4097 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		BDACEBFD25E5433E00922FF9 /* SharedListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SharedListViewController.xib; sourceTree = "<group>"; };
+		BDACEC0125E5435500922FF9 /* SharedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedListViewController.swift; sourceTree = "<group>"; };
+		BDF0F97525E68484009447ED /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BDF0F97925E69038009447ED /* SharedListCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedListCVC.swift; sourceTree = "<group>"; };
+		BDF0F97A25E69038009447ED /* SharedListCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SharedListCVC.xib; sourceTree = "<group>"; };
 		D9DC969BA39FC9DA4712A15C /* Pods-MapSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapSharing.release.xcconfig"; path = "Target Support Files/Pods-MapSharing/Pods-MapSharing.release.xcconfig"; sourceTree = "<group>"; };
 		EFC1F5F2A0AF9C49AB22A2A8 /* Pods_MapSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,6 +203,7 @@
 				BDA66A4725DE6A8400EF4097 /* Extensions */,
 				BDA66A4625DE6A8000EF4097 /* Models */,
 				BDA66A4525DE6A7600EF4097 /* ViewControllers */,
+				BDF0F97825E69017009447ED /* Cells */,
 				BDA66A2E25DE698D00EF4097 /* AppDelegate.swift */,
 				BDA66A3025DE698D00EF4097 /* SceneDelegate.swift */,
 			);
@@ -218,7 +229,9 @@
 				BDA66A6B25DE7A3B00EF4097 /* Splash */,
 				BD0DD1A925E1586000E45C8D /* Nickname */,
 				BD0DD1B025E15A3600E45C8D /* Main */,
+				BDACEC0025E5434500922FF9 /* SharedList */,
 				BDA66A3225DE698D00EF4097 /* ViewController.swift */,
+				BDF0F97525E68484009447ED /* BaseViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -255,6 +268,7 @@
 				BDA66A6A25DE7A2F00EF4097 /* Splash */,
 				BD0DD1A525E157B500E45C8D /* Nickname */,
 				BD0DD1A425E1578D00E45C8D /* Main */,
+				BDACEBFC25E5431C00922FF9 /* SharedList */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -317,6 +331,31 @@
 				BDA66A6C25DE7C3C00EF4097 /* SplashViewController.swift */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		BDACEBFC25E5431C00922FF9 /* SharedList */ = {
+			isa = PBXGroup;
+			children = (
+				BDACEBFD25E5433E00922FF9 /* SharedListViewController.xib */,
+			);
+			path = SharedList;
+			sourceTree = "<group>";
+		};
+		BDACEC0025E5434500922FF9 /* SharedList */ = {
+			isa = PBXGroup;
+			children = (
+				BDACEC0125E5435500922FF9 /* SharedListViewController.swift */,
+			);
+			path = SharedList;
+			sourceTree = "<group>";
+		};
+		BDF0F97825E69017009447ED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BDF0F97925E69038009447ED /* SharedListCVC.swift */,
+				BDF0F97A25E69038009447ED /* SharedListCVC.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,11 +422,13 @@
 				BDA66A3B25DE698F00EF4097 /* LaunchScreen.storyboard in Resources */,
 				BDA66A5A25DE70A000EF4097 /* NotoSansCJKkr-Medium.otf in Resources */,
 				BDA66A5525DE6F5900EF4097 /* Rubik-Bold.ttf in Resources */,
+				BDACEBFE25E5433E00922FF9 /* SharedListViewController.xib in Resources */,
 				BDA66A7125DE7C4E00EF4097 /* SplashViewController.xib in Resources */,
 				BDA66A6625DE756000EF4097 /* FontTestViewController.xib in Resources */,
 				BDA66A4F25DE6F3A00EF4097 /* Rubik-Regular.ttf in Resources */,
 				BDA66A5C25DE70A000EF4097 /* NotoSansCJKkr-Regular.otf in Resources */,
 				BDA66A3825DE698F00EF4097 /* Assets.xcassets in Resources */,
+				BDF0F97C25E69038009447ED /* SharedListCVC.xib in Resources */,
 				BDA66A5B25DE70A000EF4097 /* NotoSansCJKkr-Bold.otf in Resources */,
 				BDA66A3625DE698D00EF4097 /* Main.storyboard in Resources */,
 				BDA66A5225DE6F4700EF4097 /* Rubik-Medium.ttf in Resources */,
@@ -445,11 +486,14 @@
 			files = (
 				BDA66A3325DE698D00EF4097 /* ViewController.swift in Sources */,
 				BDA66A2F25DE698D00EF4097 /* AppDelegate.swift in Sources */,
+				BDF0F97625E68484009447ED /* BaseViewController.swift in Sources */,
 				BDA66A6525DE756000EF4097 /* FontTestViewController.swift in Sources */,
+				BDACEC0225E5435500922FF9 /* SharedListViewController.swift in Sources */,
 				BDA66A6D25DE7C3C00EF4097 /* SplashViewController.swift in Sources */,
 				BD0DD1AB25E1587500E45C8D /* NicknameViewController.swift in Sources */,
 				BD0DD19825E1493400E45C8D /* HexColor + UIColor.swift in Sources */,
 				BD0DD1B225E15A4200E45C8D /* MainViewController.swift in Sources */,
+				BDF0F97B25E69038009447ED /* SharedListCVC.swift in Sources */,
 				BDA66A5F25DE71B700EF4097 /* CustomFont + UIFont.swift in Sources */,
 				BDA66A3125DE698D00EF4097 /* SceneDelegate.swift in Sources */,
 			);
